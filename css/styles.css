@@ -21,10 +21,19 @@ h3 {
 
 h4 {
   text-transform: uppercase; }
+
+  .disabled h3 {
+  color: #535353;
+  cursor: not-allowed; }
+
+  .button-active {
+    color: #C3FF00;
+    background-color: #535353; }
   nav {
     background-color: #303030;
     color: #EFEFEF; }
-    nav .container {
+
+  nav .container {
       display: flex;
       justify-content: space-between;
       align-items: center; }
